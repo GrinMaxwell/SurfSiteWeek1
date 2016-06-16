@@ -60,44 +60,84 @@ input{
   font-size: 1.1rem;
   line-height: 1.1rem;
 }
-a{
+nav a{
   text-decoration: none;
-  position: relative;
 }
 h1{
-  font-size: 6rem;
+  font-size: 6.5rem;
   display: block;
   clear: both;
   padding: 8.5rem 0 0 0;
-  margin: auto;
+  margin: 0 auto;
+  color: white;
+  line-height: 6.5rem;
 }
 h6{
-  font-size: .5rem;
+  font-size: .8rem;
   clear: both;
   display: block;
   margin: 0 auto;
 }
-.byline p{
+article{
+  width: 66%;
   display: inline-block;
-  margin: 0;
+  margin: 60px auto;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4rem;
+  margin: 0 auto 0 20%;
+  line-height: 4.5rem;
+}
+h2::first-line{
+  letter-spacing: -.05rem;
+}
+.byline p{
+  margin: .6rem 0;
+  display: inline-block;
+  font-size: .9rem;
 }
 .byline a{
+  margin: .7rem 0 0 .6rem;
   display: inline-block;
+  text-decoration: none;
+  font-size: .9rem;
+  opacity: 20%;
 }
 .byline time{
+  margin: .6rem 0;
   display: inline-block;
+  font-size: .9rem;
+  text-decoration: underline;
+  opacity: 20%;
 }
 .byline img{
+  margin: .4rem 0 0 20%;
   display: inline-block;
   float: left;
   border-radius: 50%;
+}
+article p{
+  margin: .9rem 5% 0 20%;
+  line-height: 1.81rem;
+  font-size: 1.05rem;
+}
+blockquote{
+  font-size: 3rem;
 }
 label{
   display: inline-block;
   width: 155px
 }
-article{
-  width: 66%;
+.sidebarright{
+  float:right;
+  width: 20%;
+  margin: 70px 10% 0 0;
+}
+.authorinfo img{
+  margin: 0 auto;
+  border-radius: 50%;
+  display: block;
 }
 
 /*
