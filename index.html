@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Surf And Paddle Assignment</title>
+    <script src="https://use.fontawesome.com/95cea4501d.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" media="screen" rel="stylesheet"/>
     <link href="main.css" media="screen" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"/>
   </head>
   <body>
     <header>
       <div class="title"><img src="https://placebear.com/g/50/50"/><p>SURF & PADDLE CO. BLOG</p></div>
       <nav>
         <div class="search">SEARCH
-          <i class="fa fa-search fa-rotate-90"></i>
+          <i class="fa fa-search fa-rotate-90 icons"></i>
           <input type="search"/>
         </div>
         <div class="about"><a href="">ABOUT</a></div>
@@ -26,22 +26,33 @@
       <article>
         <h2 class="headline">A FANTASTIC ENGAGING HEADLINE GOES HERE</h2>
         <div class="byline">
-          <img src="https://placebear.com/g/20/20/"/>
+          <img src="https://placebear.com/g/20/20"/>
           <a href="http://annmarieswebsite.com" rel="author">Ann Marie</a>
           <p>on</p>
           <time>Monday Oct. 7th 9:22pm</time>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore <a href="www.google.com">magna aliqua.</a></p>
         <blockquote><p>Lorem ipsum dolor!</p></blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="www.google.com">exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <footer class="articlelinks">
-          <button class="comments">Read Comments</button>
-          <button class="save">Read Later</button>
-          <button class="share">Share This Post</button>
+          <button class="comments">
+            <i class="fa fa-comment-o icons"></i>
+            <p class="buttontext">Read Comments</p>
+          </button>
+          <button class="save">
+            <i class="fa fa-cloud-upload icons"></i>
+            <p class="buttontext">Read Later</p>
+          </button>
+          <button class="share">
+            <i class="fa fa-share-square-o icons"></i>
+            <p class="buttontext">Share This Post</p>
+          </button>
         </footer>
       </article>
+      <section class="sidebar right">
+      </section>
     </main>
   </body>
 </html>
