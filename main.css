@@ -92,9 +92,12 @@ h6{
   float: left;
   border-radius: 50%;
 }
-button{
+label{
   display: inline-block;
   width: 155px
+}
+article{
+  width: 66%;
 }
 
 /*
