@@ -76,6 +76,9 @@ h6{
   display: block;
   margin: 0 auto;
 }
+.byline{
+  display: inline-block;
+}
 
 
 /*
