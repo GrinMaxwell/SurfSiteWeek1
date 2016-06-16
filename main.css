@@ -81,13 +81,14 @@ h6{
 article{
   width: 66%;
   display: inline-block;
-  margin: 60px auto;
+  margin: 4rem auto;
 }
 h2{
   font-family: 'Oswald', sans-serif;
   font-size: 4rem;
   margin: 0 auto 0 20%;
   line-height: 4.5rem;
+  color: #083452;
 }
 h2::first-line{
   letter-spacing: -.05rem;
@@ -96,20 +97,21 @@ h2::first-line{
   margin: .6rem 0;
   display: inline-block;
   font-size: .9rem;
+  color: #A3B3BF;
 }
 .byline a{
   margin: .7rem 0 0 .6rem;
   display: inline-block;
   text-decoration: none;
   font-size: .9rem;
-  opacity: 20%;
+  color: #106DB3;
 }
 .byline time{
   margin: .6rem 0;
   display: inline-block;
   font-size: .9rem;
   text-decoration: underline;
-  opacity: 20%;
+  color: #A3B3BF;
 }
 .byline img{
   margin: .4rem 0 0 20%;
@@ -118,26 +120,76 @@ h2::first-line{
   border-radius: 50%;
 }
 article p{
-  margin: .9rem 5% 0 20%;
-  line-height: 1.81rem;
-  font-size: 1.05rem;
+  margin: 1rem 5% 0 20%;
+  line-height: 1.75rem;
+  font-size: 1.03rem;
+  color: #5E686F;
 }
-blockquote{
-  font-size: 3rem;
+article a{
+  color: #106DB3;
+}
+article a:focus{
+  color: #A3B3BF;
+}
+blockquote p{
+  font-size: 1.8rem;
+  color: #106DB3;
+  font-family: 'Open Sans', sans-serif;
+  margin: 1.2rem 0 1.2rem 18%;
+  border-left: 2px solid #ccc;
+  padding: 1rem 0 1rem 2%;
+}
+main footer{
+  margin: 1rem 5% 0 20%;
+}
+button{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #A3B3BF;
+  padding: 0 0.5rem;
+  border: 0;
+  height: 2rem;
+  margin: 0 .5rem;
+  float: left;
+}
+button i{
+  position: relative;
+  left:-0.5rem;
+  background-color: #5E686F;
+  vertical-align: middle;
+  padding: .55rem;
+  margin: 0;
+}
+button.share{
+  background-color: #106DB3;
+}
+button.share i{
+  background-color: #083452;
 }
 label{
-  display: inline-block;
-  width: 155px
+  font-family: 'Open sans', sans-serif;
+  font-size: .8rem;
+  color: white;
 }
 .sidebarright{
   float:right;
-  width: 20%;
-  margin: 70px 10% 0 0;
+  width: 25%;
+  margin: 5.4rem 5% 0 0;
+}
+.authorinfo{
+  text-align: center;
 }
 .authorinfo img{
   margin: 0 auto;
   border-radius: 50%;
   display: block;
+}
+h5{
+  color: #106DB3;
+  margin: 0.5rem auto;
+}
+.authorinfo a{
+  text-decoration: none;
+  color: #A3B3BF;
 }
 
 /*
