@@ -4,7 +4,7 @@
 
 - The point of this assignment is to exactly recreate a functional front website page from an image using Pixel Perfect
 - Good for practicing as a potential job task later, as a design team often give an image and will care exactly where each and every pixel is placed
-- Because I'm making the website responsive, I'm shooting for basically pixel perfect when the browser window is approx 1250px wide
+- Because I'm making the website responsive, I'm shooting for basically pixel perfect when the browser window is approx 1250px wide (scale for pixel perfect image: 0.97)
 -
 
 A-Ha Moments:
