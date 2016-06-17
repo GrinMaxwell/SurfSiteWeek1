@@ -125,10 +125,10 @@ article p{
   font-size: 1.03rem;
   color: #5E686F;
 }
-article a{
+a{
   color: #106DB3;
 }
-article a:focus{
+a:focus{
   color: #A3B3BF;
 }
 blockquote p{
@@ -172,7 +172,7 @@ label{
 }
 .sidebarright{
   float:right;
-  width: 25%;
+  width: 26.5%;
   margin: 5.4rem 5% 0 0;
 }
 .authorinfo{
@@ -185,12 +185,46 @@ label{
 }
 h5{
   color: #106DB3;
-  margin: 0.5rem auto;
+  margin: 0.7rem auto 0 auto;
+  font-size: 1rem;
+  font-weight: normal;
 }
 .authorinfo a{
   text-decoration: none;
   color: #A3B3BF;
+  font-size: 0.8rem;
+  letter-spacing: 0.09rem;
+  font-weight: normal;
 }
+.ad img{
+  margin: 3.3rem 1.2rem 0 1.2rem;
+}
+.ad a{
+  color: #A3B3BF;
+  float: right;
+  margin-right: 1.5rem;
+  font-size: 0.87rem;
+  margin-top: 0.2rem
+}
+.sidebarright section{
+  margin: 4.2rem 1rem 0 1.3rem;
+}
+.sidebarright section p{
+  font-size: 0.8rem;
+  color: #A3B3BF;
+  margin-top: 0.3rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05rem;
+  font-weight: lighter;
+  font-family: 'Open sans', sans-serif;
+}
+h4{
+  color: #106DB3;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
 
 /*
 font-family: 'Oswald', sans-serif;
