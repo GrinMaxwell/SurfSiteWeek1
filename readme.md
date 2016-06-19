@@ -4,11 +4,16 @@
 
 - The point of this assignment is to exactly recreate a functional front website page from an image using Pixel Perfect
 - Good for practicing as a potential job task later, as a design team often give an image and will care exactly where each and every pixel is placed
-- Because I'm making the website responsive, I'm shooting for basically pixel perfect when the browser window is approx 1250px wide (scale for pixel perfect image: 0.97)
--
+
 
 A-Ha Moments:
   - Several times the first day I would get a small detail perfect but then fixing something else would mess up the spacing of that small detail, and with all the back and forth I got a lot less done that day than I would have if I had (drum roll for the big takeaway) **focused on the big issues first and then trickled down to the detail work.** Think of it like the old object lesson of filling up a jar: big rocks first, then small rocks, then sand, and that way everything fits nice. If you fill it with sand and little rocks first, you won't have room for all the big rocks. To this end, on day 2 I did the entire html framework before starting to fiddle with the CSS. HTML tweaks can be done as necessary, but having the whole frame in place makes it much easier to know the side effects CSS changes might have on later elements. (this thought expanded in week 1 blog post: https://medium.com/@christian.straubhaar/week-1-reflections-a-nice-a-ha-moment-738db3596108#.oxi8hv3sc)
+  - Things to remember next time I am dealing with the evils of CSS and pixel perfect:
+    1. check the scale several times ahead of time
+    2. check the scale again
+    3. did you check the scale?
+    4. for serious, make sure you have the scale right before doing anything or you'll redo it a thousand times
+    5. A THOUSAND TIMES. CHECK THE SCALE.
 
 #### Assets
 -  "Comments", "Read Later", and "Share This" asset hints from http://fontawesome.io/cheatsheet/:
